@@ -1,0 +1,182 @@
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>表單範例5</title>
+
+	<style type="text/css">
+	  select {
+		font-size:80%;
+	  }
+
+	  input {
+		font-size:80%;
+		background:#CCF;
+		border:#AAA 1px solid;
+	  }
+
+	  textarea {
+		background:#CCF;
+	  }	
+	</style>
+
+
+  </head>
+  <body>
+	<!--<right> <!--置中設定-->
+     
+
+	 <body bgcolor="#EDD4FF">
+     </body> 
+  	<fieldset style='width:600px'> <!--style='width:400px'> -->
+	<legend stlye='font-size:0.5cm;color:#f0f'>填寫員工基本資料的表單</legend>
+    <form method="post" action="">
+      <p>姓名:<input name="f1" type="text" id="f1">
+		 性別:
+		 <input name="f3" type="radio" value="M">男
+		 <input name="f3" type="radio" value="F">女
+		 <input name="f3" type="radio" value="Other">其他
+	  
+      <p>地址:<input name="f2" type="text" id="f2">
+	  <!---<p>出生年月日:
+		<input name="f2" type="text" id="f2">年
+		<input name="f2" type="text" id="f2">月
+		<input name="f2" type="text" id="f2">日  
+       
+      </p> --->
+	  
+      <p>出生日期:
+  	  <select name="f4" size="1">
+        <option value="1">1960 </option>
+        <option value="2">1961 </option>
+        <option value="3">1962 </option>
+        <option value="4">1963 </option>
+        <option value="5">1964 </option>
+        <option value="6">1965 </option>
+        <option value="7">1966 </option>
+        <option value="8">1967 </option>
+        <option value="9">1968 </option>
+        <option value="10">1969 </option>
+        <option value="11">1970 </option>
+        <option value="12">1971 </option>
+        <option value="13">1972 </option>
+        <option value="14">1973 </option>
+        <option value="15">1974 </option>
+        <option value="16">1975 </option>
+        <option value="17">1976 </option>
+        <option value="18">1977 </option>
+        <option value="19">1978 </option>
+        <option value="20">1979 </option>
+        <option value="21">1980 </option>
+        <option value="22">1981 </option>
+        <option value="23">1982 </option>
+        <option value="24">1983 </option>
+        <option value="25">1984 </option>
+        <option value="26">1985 </option>
+        <option value="27">1986 </option>
+        <option value="28">1987 </option>
+        <option value="29">1988 </option>
+        <option value="30">1989 </option>
+		<option value="31">1990 </option>
+        <option value="32">1991 </option>
+        <option value="33">1992 </option>
+        <option value="34">1993 </option>
+        <option value="35">1994 </option>
+        <option value="36">1995 </option>
+        <option value="37">1996 </option>
+        <option value="38">1997 </option>
+        <option value="39">1998 </option>
+        <option value="40">1999 </option>
+		<option value="41">2000 </option>
+        <option value="42">2001 </option>
+        <option value="43">2002 </option>
+        <option value="44">2003 </option>
+        <option value="45">2004 </option>
+        <option value="46">2005 </option>
+        <option value="47">2006 </option>
+        <option value="48">2007 </option>
+        <option value="49">2008 </option>
+        <option value="50">2009 </option>
+		<option value="51">2010 </option>
+        <option value="52">2011 </option>
+        <option value="53">2012 </option>
+        <option value="54">2013 </option>
+        <option value="55">2014 </option>
+        <option value="56">2015 </option>
+        <option value="57">2016 </option>
+        <option value="58">2017 </option>
+        <option value="59">2018 </option>
+        <option value="60">2019 </option>
+		<option value="60">2020 </option>
+		</select><th>年</th>
+		<!--<option >年</option>-->
+	
+		<select name="f4" size="1">	
+		<option value="1">1 </option>
+		<option value="2">2 </option>
+		<option value="3">3 </option>
+		<option value="4">4 </option>
+		<option value="5">5 </option>
+		<option value="6">6 </option>
+		<option value="7">7 </option>
+		<option value="8">8 </option>
+		<option value="9">9 </option>
+		<option value="10">10 </option>
+		<option value="11">11 </option>
+		<option value="12">12 </option>
+		</select><th>月</th>
+		<!--<option>月</option>-->
+		
+		<select name="f4" size="1">	
+		<option value="1">1 </option>
+		<option value="2">2 </option>
+		<option value="3">3 </option>
+		<option value="4">4 </option>
+		<option value="5">5 </option>
+		<option value="6">6 </option>
+		<option value="7">7 </option>
+		<option value="8">8 </option>
+		<option value="9">9 </option>
+		<option value="10">10 </option>
+		<option value="11">11 </option>
+		<option value="12">12 </option>
+		<option value="13">13 </option>
+		<option value="14">14 </option>
+		<option value="15">15 </option>
+		<option value="16">16 </option>
+		<option value="17">17 </option>
+		<option value="18">18 </option>
+		<option value="19">19 </option>
+		<option value="20">20 </option>
+		<option value="21">21 </option>
+		<option value="22">22 </option>
+		<option value="23">23 </option>
+		<option value="24">24 </option>
+		<option value="25">25 </option>
+		<option value="26">26 </option>
+		<option value="27">27 </option>
+		<option value="28">28 </option>
+		<option value="29">29 </option>
+		<option value="30">30 </option>
+		<option value="31">31 </option>
+		</select><th>日</th>
+		<!--<option>日</option>-->
+		
+    </p>
+	<p>身分證字號:<input name="f2" type="text" id="f2">
+	
+    <!--<p>何處得知:
+      <input name="f5" type="checkbox" id="f5" value="1">網路廣告
+      <input name="f5" type="checkbox" id="f5" value="2">報紙
+      <input name="f5" type="checkbox" id="f5" value="3">朋友告知</p>
+      <p>意見:<br/>
+        <textarea name="f6" cols="48" rows="6" id="f6">
+		</textarea> -->
+      <p>
+        <input type="submit" name="submit" value="送出">
+		<input type="reset" name="reset" value="重填">
+      </p>
+    </form>
+   <!--<</right>-->
+
+  </body>
+</html>
